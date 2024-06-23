@@ -1,10 +1,62 @@
 /*Task 1*/
 
-.task1 {
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+.menu {
     display: flex;
-    position: relative;
-    background-color: lightgreen;
+    flex-direction: row;
+    margin-right: 30px;
+    background-color: lightskyblue;
     justify-content: space-evenly;
-    flex-direction: column;
+}
 
+header{
+    text-align: center;
+    background-color: cornflowerblue;
+    color: seashell;
+    font-weight: bold;
+}
+
+div {
+    border: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px black;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: stretch;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+
+img {
+    height: 160px;
+    width: 120px;
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .menu {
+        justify-content: space-evenly;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
 }
