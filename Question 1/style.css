@@ -1,0 +1,10 @@
+/*Task 1*/
+
+.task1 {
+    display: flex;
+    position: relative;
+    background-color: lightgreen;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
